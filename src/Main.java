@@ -124,14 +124,35 @@ public class Main {
         questao12.correta = "D";
 
         Questao questao13 = new Questao();
-        questao13.pergunta = "13) Na história do primeiro jogo da franquia The King of Fighters, qual foi o trio" +
-                " responsável por derrotar Rugal no final do torneio?";
+        questao13.pergunta = "13) Na história do primeiro jogo da franquia The King of Fighters (TKOF '94), qual foi" +
+                " o trio responsável por derrotar Rugal no final do torneio?";
         questao13.opcaoA = "A) Kim Kaphwan, Chang Koehan e Choi Bounge.";
         questao13.opcaoB = "B) Athena Asamiya, Sie Kensou e Chin Gentsai.";
         questao13.opcaoC = "C) Terry Bogard, Andy Bogard e Joe Higashi.";
         questao13.opcaoD = "D) Yuri Sakazaki, Mai Shiranui e King.";
         questao13.opcaoE = "E) Kyo Kusanagi, Benimaru Nikaido e Goro Daimon.";
         questao13.correta = "E";
+
+        Questao questao14 = new Questao();
+        questao14.pergunta = "14) No jogo Gradius de 1986 os desenvolvedores acidentalmente deixaram na versão final" +
+                " um código que era usado para testes no jogo. Esse código acabou se popularizando e ficou conhecido" +
+                " como:";
+        questao14.opcaoA = "A) Arcade Code.";
+        questao14.opcaoB = "B) Konami Code.";
+        questao14.opcaoC = "C) God Mode Code.";
+        questao14.opcaoD = "D) Cheat Code.";
+        questao14.opcaoE = "E) Developer Code.";
+        questao14.correta = "B";
+
+        Questao questao15 = new Questao();
+        questao15.pergunta = "15) A franquia Kirby do memóravel protagonista rosado teve seu primeiro jogo lançado em " +
+                "1992. Qual foi o título dado a esse jogo?";
+        questao15.opcaoA = "A) Kirby's Adventure.";
+        questao15.opcaoB = "B) Kirby Super Star.";
+        questao15.opcaoC = "C) Kirby's Dream Land.";
+        questao15.opcaoD = "D) Kirby Star Allies.";
+        questao15.opcaoE = "E) Kirby & the Amazing Mirror.";
+        questao15.correta = "C";
 
         int acertos;
 
@@ -199,6 +220,16 @@ public class Main {
 
         questao13.escrevaQuestao();
         if (questao13.isCorreta(questao13.leiaResposta())) {
+            acertos = acertos+1;
+        }
+
+        questao14.escrevaQuestao();
+        if (questao14.isCorreta(questao14.leiaResposta())) {
+            acertos = acertos+1;
+        }
+
+        questao15.escrevaQuestao();
+        if (questao15.isCorreta(questao15.leiaResposta())) {
             acertos = acertos+1;
         }
 
