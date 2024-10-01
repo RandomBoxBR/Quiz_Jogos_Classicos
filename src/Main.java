@@ -103,6 +103,36 @@ public class Main {
         questao10.opcaoE = "E) 7 Fases.";
         questao10.correta = "E";
 
+        Questao questao11 = new Questao();
+        questao11.pergunta = "11) Qual o nome da dupla de protagonistas que podem ser escolhidos pelo jogador no" +
+                " primeiro jogo da franquia Resident Evil lançado em 1996?";
+        questao11.opcaoA = "A) Chris Redfield e Jill Valentine.";
+        questao11.opcaoB = "B) Ada Wong e Albert Wesker.";
+        questao11.opcaoC = "C) Jill Valentine e Leon S. Kennedy.";
+        questao11.opcaoD = "D) Leon S. Kennedy e Ada Wong";
+        questao11.opcaoE = "E) Chris Redfield e Ada Wong.";
+        questao11.correta = "A";
+
+        Questao questao12 = new Questao();
+        questao12.pergunta = "12) A franquia GTA já conta com diversos jogos lançados e teve sua origem como um" +
+                " jogo 2D. Em qual título da franquia ouve essa mudança para gráficos em 3D?";
+        questao12.opcaoA = "A) GTA 2.";
+        questao12.opcaoB = "B) GTA Vice City.";
+        questao12.opcaoC = "C) GTA IV.";
+        questao12.opcaoD = "D) GTA III";
+        questao12.opcaoE = "E) GTA San Andreas.";
+        questao12.correta = "D";
+
+        Questao questao13 = new Questao();
+        questao13.pergunta = "13) Na história do primeiro jogo da franquia The King of Fighters, qual foi o trio" +
+                " responsável por derrotar Rugal no final do torneio?";
+        questao13.opcaoA = "A) Kim Kaphwan, Chang Koehan e Choi Bounge.";
+        questao13.opcaoB = "B) Athena Asamiya, Sie Kensou e Chin Gentsai.";
+        questao13.opcaoC = "C) Terry Bogard, Andy Bogard e Joe Higashi.";
+        questao13.opcaoD = "D) Yuri Sakazaki, Mai Shiranui e King.";
+        questao13.opcaoE = "E) Kyo Kusanagi, Benimaru Nikaido e Goro Daimon.";
+        questao13.correta = "E";
+
         int acertos;
 
         acertos = 0;
@@ -154,6 +184,21 @@ public class Main {
 
         questao10.escrevaQuestao();
         if (questao10.isCorreta(questao10.leiaResposta())) {
+            acertos = acertos+1;
+        }
+
+        questao11.escrevaQuestao();
+        if (questao11.isCorreta(questao11.leiaResposta())) {
+            acertos = acertos+1;
+        }
+
+        questao12.escrevaQuestao();
+        if (questao12.isCorreta(questao12.leiaResposta())) {
+            acertos = acertos+1;
+        }
+
+        questao13.escrevaQuestao();
+        if (questao13.isCorreta(questao13.leiaResposta())) {
             acertos = acertos+1;
         }
 
