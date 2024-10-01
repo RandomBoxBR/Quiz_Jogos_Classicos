@@ -84,6 +84,25 @@ public class Main {
         questao8.opcaoE = "E) Mega Man 8.";
         questao8.correta = "C";
 
+        Questao questao9 = new Questao();
+        questao9.pergunta = "9) Qual o apelido dado aos 4 fantasmas que perseguem Pac Man em seus jogos?";
+        questao9.opcaoA = "A) Tinky, Blinky, Clyde e Skeet";
+        questao9.opcaoB = "B) Blinky, Pinky, Inky e Clyde.";
+        questao9.opcaoC = "C) Inky, Tinky, Winky e Pinky.";
+        questao9.opcaoD = "D) Inky, Skeet, Blinky e Boome.";
+        questao9.opcaoE = "E) Boome, Clyde, Skeet e Pinky.";
+        questao9.correta = "B";
+
+        Questao questao10 = new Questao();
+        questao10.pergunta = "10) No primeiro Contra lançado em 1987, quantas fases o jogador deveria concluír para" +
+                "finalmente finalizar o jogo?";
+        questao10.opcaoA = "A) 8 Fases";
+        questao10.opcaoB = "B) 6 Fases.";
+        questao10.opcaoC = "C) 5 Fases.";
+        questao10.opcaoD = "D) 4 Fases.";
+        questao10.opcaoE = "E) 7 Fases.";
+        questao10.correta = "E";
+
         int acertos;
 
         acertos = 0;
@@ -125,6 +144,16 @@ public class Main {
 
         questao8.escrevaQuestao();
         if (questao8.isCorreta(questao8.leiaResposta())) {
+            acertos = acertos+1;
+        }
+
+        questao9.escrevaQuestao();
+        if (questao9.isCorreta(questao9.leiaResposta())) {
+            acertos = acertos+1;
+        }
+
+        questao10.escrevaQuestao();
+        if (questao10.isCorreta(questao10.leiaResposta())) {
             acertos = acertos+1;
         }
 
