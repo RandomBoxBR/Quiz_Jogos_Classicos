@@ -1,6 +1,7 @@
 public class Main {
 
     public static void main(String[] args) {
+
         System.out.println("UNIFAN Centro Universitário Alfredo Nasser");
         System.out.println("Aluno: João Pedro Gonçalves da Silva");
         System.out.println("Professor: Brenno Pimenta");
@@ -233,7 +234,7 @@ public class Main {
             acertos = acertos+1;
         }
 
-        System.out.println("Você concluiu o Questionário, espero que tenha gostado!");
+        System.out.println("Você concluiu o Questionário de Jogos Clássicos! Espero que tenha se divertido!");
         System.out.println("Você acertou " + acertos + " de 15 questões!");
 
     }
