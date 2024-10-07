@@ -233,6 +233,8 @@ public class Main {
             acertos = acertos+1;
         }
 
+        System.out.println("Você concluiu o Questionário, espero que tenha gostado!");
+        System.out.println("Você acertou " + acertos + " de 15 questões!");
 
     }
 
