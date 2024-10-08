@@ -58,8 +58,8 @@ public class Main {
         q5.correta = "A";
 
         Questao q6 = new Questao();
-        q6.pergunta = "6) O clássico jogo Doom de 1993 começa sua gameplay em uma base militar localizada em uma" +
-                " lua. Qual o nome dessa lua?";
+        q6.pergunta = "6) O clássico jogo Doom de 1993 começa sua gameplay em uma base militar localizada em uma lua" +
+                " Qual o nome dessa lua?";
         q6.opcaoA = "A) Deimos.";
         q6.opcaoB = "B) Phobos.";
         q6.opcaoC = "C) Triton.";
@@ -105,8 +105,8 @@ public class Main {
         q10.correta = "E";
 
         Questao q11 = new Questao();
-        q11.pergunta = "11) Qual o nome da dupla de protagonistas que podem ser escolhidos pelo jogador no" +
-                " primeiro jogo da franquia Resident Evil lançado em 1996?";
+        q11.pergunta = "11) Qual o nome da dupla de protagonistas que podem ser escolhidos pelo jogador no primeiro" +
+                " jogo da franquia Resident Evil lançado em 1996?";
         q11.opcaoA = "A) Chris Redfield e Jill Valentine.";
         q11.opcaoB = "B) Ada Wong e Albert Wesker.";
         q11.opcaoC = "C) Jill Valentine e Leon S. Kennedy.";
@@ -115,8 +115,8 @@ public class Main {
         q11.correta = "A";
 
         Questao q12 = new Questao();
-        q12.pergunta = "12) A franquia GTA já conta com diversos jogos lançados e teve sua origem como um" +
-                " jogo 2D. Em qual título da franquia ouve essa mudança para gráficos em 3D?";
+        q12.pergunta = "12) A franquia GTA já conta com diversos jogos lançados e teve sua origem como um jogo 2D" +
+                " Em qual título da franquia ouve essa mudança para gráficos em 3D?";
         q12.opcaoA = "A) GTA 2.";
         q12.opcaoB = "B) GTA Vice City.";
         q12.opcaoC = "C) GTA IV.";
@@ -125,8 +125,8 @@ public class Main {
         q12.correta = "D";
 
         Questao q13 = new Questao();
-        q13.pergunta = "13) Na história do primeiro jogo da franquia The King of Fighters (TKOF '94), qual foi" +
-                " o trio responsável por derrotar Rugal no final do torneio?";
+        q13.pergunta = "13) Na história do primeiro jogo da franquia The King of Fighters (TKOF '94), qual foi o trio" +
+                " responsável por derrotar Rugal no final do torneio?";
         q13.opcaoA = "A) Kim Kaphwan, Chang Koehan e Choi Bounge.";
         q13.opcaoB = "B) Athena Asamiya, Sie Kensou e Chin Gentsai.";
         q13.opcaoC = "C) Terry Bogard, Andy Bogard e Joe Higashi.";
@@ -135,9 +135,8 @@ public class Main {
         q13.correta = "E";
 
         Questao q14 = new Questao();
-        q14.pergunta = "14) No jogo Gradius de 1986 os desenvolvedores acidentalmente deixaram na versão final" +
-                " um código que era usado para testes no jogo. Esse código acabou se popularizando e ficou conhecido" +
-                " como:";
+        q14.pergunta = "14) No jogo Gradius de 1986 os desenvolvedores acidentalmente deixaram na versão final um" +
+                " código que era usado para testes no jogo. Esse código acabou se popularizando e ficou conhecido como:";
         q14.opcaoA = "A) Arcade Code.";
         q14.opcaoB = "B) Konami Code.";
         q14.opcaoC = "C) God Mode Code.";
@@ -146,8 +145,8 @@ public class Main {
         q14.correta = "B";
 
         Questao q15 = new Questao();
-        q15.pergunta = "15) A franquia Kirby do memóravel protagonista rosado teve seu primeiro jogo lançado em " +
-                "1992. Qual foi o título dado a esse jogo?";
+        q15.pergunta = "15) A franquia Kirby do memóravel protagonista rosado teve seu primeiro jogo lançado em 1992" +
+                " Qual foi o título dado a esse jogo?";
         q15.opcaoA = "A) Kirby's Adventure.";
         q15.opcaoB = "B) Kirby Super Star.";
         q15.opcaoC = "C) Kirby's Dream Land.";
