@@ -3,21 +3,20 @@ public class Main {
     public static void main(String[] args) {
 
         System.out.println("UNIFAN Centro Universitário Alfredo Nasser");
-        System.out.println("Aluno: João Pedro Gonçalves da Silva");
-        System.out.println("Professor: Brenno Pimenta");
+        System.out.println("Aluno: João Pedro Gonçalves da Silva.");
+        System.out.println("Professor: Brenno Pimenta.");
         System.out.println(" ");
         System.out.println("Seja bem vindo ao Questionário de Jogos Clássicos! Você responderá 15 perguntas, cada uma " +
                 "delas tendo 5 alternativas com apenas uma sendo correta. Vamos começar, te desejo uma boa sorte!");
         System.out.println(" ");
 
         Questao q1 = new Questao();
-        q1.pergunta = "1) Quem era o protagonista do primeiro jogo da franquia Street Fighter e em que ano ele foi " +
-                "lançado?";
-        q1.opcaoA = "A) Protagonista Ken, ano 1987.";
-        q1.opcaoB = "B) Protagonista Ryu, ano 1989.";
-        q1.opcaoC = "C) Protagonista Ken, ano 1988.";
-        q1.opcaoD = "D) Protagonista Ryu, ano 1987.";
-        q1.opcaoE = "E) Protagonista Guile, ano 1989.";
+        q1.pergunta = "1) Quem era o vilão final do primeiro jogo da franquia Street Fighter lançado em 1987?";
+        q1.opcaoA = "A) Akuma.";
+        q1.opcaoB = "B) M. Bison.";
+        q1.opcaoC = "C) Balrog.";
+        q1.opcaoD = "D) Sagat.";
+        q1.opcaoE = "E) Vega.";
         q1.correta = "D";
 
         Questao q2 = new Questao();
