@@ -189,8 +189,10 @@ public class Main {
         questao.add(q15);
 
         int acertos, i;
+        double porcentagem;
 
         acertos = 0;
+
 
         i = new Random().nextInt(questao.size());
 
@@ -312,8 +314,11 @@ public class Main {
             acertos += 1;
         }
 
+        porcentagem = (acertos / 15.0) * 100;
+
         System.out.println("Você concluiu o Questionário de Jogos Clássicos! Espero que tenha se divertido!");
         System.out.println("Você acertou " + acertos + " de 15 questões!");
+        System.out.println("Um total de " + (String.format("%.2f", porcentagem)) + "% das questões!");
 
     }
 
